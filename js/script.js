@@ -23,11 +23,7 @@ elButton.addEventListener("click",function(e){
     return
   }
 
-  amount = Number(amount);
-  if (isNaN(amount)){
-    return
-  }
-
+  
 
 
 
