@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right, #9c89be, #2ebf91);
+}
+
+.container {
+  width: 1240px;
+  padding: 0 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-logo__img {
+  width: 100px;
+  height: 100px;
+}
+
+
+.site-navbar__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+
+.site-navbar__item ~ .site-navbar__item {
+  margin-left: 20px;
+}
+
+.site-navbar__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-button__btn {
+  padding: 15px 50px;
+  border-radius: 25px;
+  border: 1px solid #207e7e;
+  background-color: rgba(10, 235, 197,0.3);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-button__btn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(13, 240, 191);
+  border: none;
+}
+
+
+/* MAIN PART OF WEBSITE */
+
+.score-part__heading {
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+}
+
+
+
